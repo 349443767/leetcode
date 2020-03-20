@@ -25,7 +25,7 @@ import java.util.List;
  * 假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [−231,  231 − 1]。请根据这个假设，如果反转后整数溢出那么就返回 0。
  * @date 2020/3/19 上午10:27
  */
-public class ReverseSolution {
+public class Reverse {
 
     public int reverse(int x) {
         try {
@@ -61,10 +61,10 @@ public class ReverseSolution {
         int num2 = -123;
         int num3 = 120;
         int num4 = 1534236469;
-        new ReverseSolution().reverse(num1);
-        new ReverseSolution().reverse(num2);
-        new ReverseSolution().reverse(num3);
-        new ReverseSolution().reverse(num4);
+        new Reverse().reverse(num1);
+        new Reverse().reverse(num2);
+        new Reverse().reverse(num3);
+        new Reverse().reverse(num4);
     }
 
 }
